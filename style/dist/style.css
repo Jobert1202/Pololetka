@@ -103,7 +103,7 @@ header nav a {
     box-shadow: none;
   }
   header nav a:hover {
-    color: #07ff3d;
+    color: #ff2600;
   }
 }
 header .is-open {
@@ -149,4 +149,17 @@ section {
   padding: 16px;
   display: flex;
   flex-direction: column;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-wrapper h1 {
+  font-style: normal;
+  font-weight: 700;
 }
